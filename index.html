@@ -1,23 +1,22 @@
+<style>
+body{margin:0;font-family:'Poppins',sans-serif;background:#f4f7fb;color:#333}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#ffffff;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+.logo{font-size:22px;font-weight:700;color:#0a3d62}
+nav a{margin:0 15px;text-decoration:none;color:#333;font-weight:500}
+nav a:hover{color:#0a3d62}
+.hero{background:linear-gradient(to right,#0a3d62,#3c6382);color:white;padding:100px 20px;text-align:center}
+.section{padding:60px 20px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+footer{background:#0a3d62;color:white;text-align:center;padding:20px}
+.btn{background:#f39c12;color:white;padding:12px 25px;border-radius:5px;text-decoration:none}
+</style>
 <!DOCTYPE html>
 <html>
-<head>
-<title>KGRS - Home</title>
-<style>
-body{font-family:Poppins,Arial;margin:0;background:#f4f6f9}
-header{background:#0a3d62;color:#fff;padding:20px;text-align:center}
-nav{background:#333;text-align:center}
-nav a{color:#fff;padding:14px 20px;display:inline-block;text-decoration:none}
-nav a:hover{background:#0a3d62}
-.hero{padding:80px 20px;background:#0a3d62;color:white;text-align:center}
-.section{padding:40px;text-align:center}
-footer{background:#0a3d62;color:#fff;text-align:center;padding:15px}
-</style>
-</head>
+<head><title>KGRS - Home</title></head>
 <body>
 <header>
-<h1>KRISHNA GLOBAL RECRUITMENT SERVICES</h1>
-<p>Trusted Global Recruitment & Manpower Solutions</p>
-</header>
+<div class="logo">KGRS</div>
 <nav>
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
@@ -25,17 +24,23 @@ footer{background:#0a3d62;color:#fff;text-align:center;padding:15px}
 <a href="jobs.html">Jobs</a>
 <a href="contact.html">Contact</a>
 </nav>
+</header>
+
 <section class="hero">
-<h2>Connecting Talent with Global Opportunities</h2>
-<p>We help individuals build careers abroad and support companies with skilled workforce solutions.</p>
+<h1>KRISHNA GLOBAL RECRUITMENT SERVICES</h1>
+<p>Global Hiring | Trusted Consultancy | Career Growth</p>
+<a href="contact.html" class="btn">Get Started</a>
 </section>
+
 <section class="section">
 <h2>Why Choose Us</h2>
-<p>✔ Trusted consultancy in Telangana<br>
-✔ Strong international employer network<br>
-✔ Transparent and reliable recruitment process<br>
-✔ End-to-end support for candidates</p>
+<div class="grid">
+<div class="card">Trusted Recruitment Partner</div>
+<div class="card">Global Opportunities</div>
+<div class="card">Fast & Reliable Process</div>
+</div>
 </section>
-<footer>© 2026 KRISHNA GLOBAL RECRUITMENT SERVICES</footer>
+
+<footer>© 2026 KGRS</footer>
 </body>
 </html>
