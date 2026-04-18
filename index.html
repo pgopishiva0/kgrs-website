@@ -1,88 +1,74 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KGRS - Global Recruitment</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+<title>KGRS</title>
 <style>
-body{margin:0;font-family:'Poppins',sans-serif;background:#f5f7fa;color:#333}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px 50px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
-.logo{font-size:24px;font-weight:700;color:#0a3d62}
-nav a{margin:0 15px;text-decoration:none;color:#333;font-weight:500}
-
-.hero{
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:80px 50px;
-background:#0a3d62;
-color:#fff;
-}
-.hero-text{max-width:500px}
-.hero h1{font-size:40px;margin-bottom:20px}
-.btn{background:#f1c40f;padding:12px 25px;color:#000;text-decoration:none;border-radius:5px;font-weight:600}
-
-.section{padding:70px 50px;text-align:center}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;margin-top:30px}
-.card{background:#fff;padding:25px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
-
-.dark{background:#0a3d62;color:#fff}
-
-.stats{display:flex;justify-content:center;gap:50px;flex-wrap:wrap}
-.stat{font-size:22px;font-weight:600}
-
-footer{background:#0a3d62;color:#fff;padding:40px;text-align:center}
+body{font-family:Poppins;margin:0;background:#f4f7fb}
+header{display:flex;justify-content:space-between;padding:20px;background:#fff}
+nav a{margin:10px;text-decoration:none;color:#333}
+.hero{padding:100px;background:#0a3d62;color:white;text-align:center}
+.section{padding:60px;text-align:center}
+.grid{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+.card{background:white;padding:20px;width:250px}
+.dark{background:#0a3d62;color:white}
+footer{background:#0a3d62;color:white;text-align:center;padding:20px}
 </style>
-
 </head>
 
 <body>
 
 <header>
-<div class="logo">KGRS</div>
+<h2>KGRS</h2>
 <nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Services</a>
-<a href="#">Jobs</a>
-<a href="#">Contact</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="jobs.html">Jobs</a>
+<a href="contact.html">Contact</a>
 </nav>
 </header>
 
 <!-- HERO -->
-
 <section class="hero">
-<div class="hero-text">
 <h1>KRISHNA GLOBAL RECRUITMENT SERVICES</h1>
 <p>Connecting Talent Across Gulf, Europe & Asia</p>
-<a href="#" class="btn">Get Started</a>
-</div>
-</section>
-
-<!-- SERVICES -->
-
-<section class="section">
-<h2>Our Services</h2>
-<div class="grid">
-<div class="card"><h3>Overseas Recruitment</h3><p>Hiring across Gulf, Europe and Asia.</p></div>
-<div class="card"><h3>Visa Assistance</h3><p>Complete documentation and support.</p></div>
-<div class="card"><h3>Staffing Solutions</h3><p>Customized hiring for companies.</p></div>
-</div>
 </section>
 
 <!-- ABOUT -->
+<section class="section">
+<h2>About Us</h2>
+<p>
+KRISHNA GLOBAL RECRUITMENT SERVICES is a trusted manpower consultancy based in Telangana. 
+We connect skilled candidates with international job opportunities across Gulf countries, Europe, and Asia.
+</p>
+</section>
 
+<!-- SERVICES -->
+<section class="section">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card">
+<h3>Overseas Recruitment</h3>
+<p>We recruit skilled and unskilled manpower for global markets with proper screening.</p>
+</div>
+<div class="card">
+<h3>Visa Assistance</h3>
+<p>Complete support for visa documentation and processing.</p>
+</div>
+<div class="card">
+<h3>Staffing Solutions</h3>
+<p>Providing workforce solutions for companies across industries.</p>
+</div>
+</div>
+</section>
+
+<!-- COUNTRIES -->
 <section class="section dark">
-<h2>About KGRS</h2>
-<p>We are a trusted recruitment consultancy connecting skilled professionals with global opportunities across multiple industries.</p>
+<h2>Countries We Serve</h2>
+<p>UAE, Saudi Arabia, Qatar, Oman, Kuwait, Europe (Germany, Poland), Asia (Singapore, Malaysia)</p>
 </section>
 
 <!-- INDUSTRIES -->
-
 <section class="section">
 <h2>Industries We Serve</h2>
 <div class="grid">
@@ -90,39 +76,55 @@ footer{background:#0a3d62;color:#fff;padding:40px;text-align:center}
 <div class="card">Healthcare</div>
 <div class="card">Hospitality</div>
 <div class="card">Logistics</div>
+<div class="card">Oil & Gas</div>
 </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section dark">
+<h2>Our Recruitment Process</h2>
+<p>Screening → Interview → Selection → Documentation → Deployment</p>
+</section>
+
+<!-- JOBS -->
+<section class="section">
+<h2>Current Job Opportunities</h2>
+<p>
+• Electricians – UAE<br>
+• Drivers – Saudi Arabia<br>
+• Hotel Staff – Qatar<br>
+• Technicians – Europe
+</p>
+</section>
+
+<!-- WHY -->
+<section class="section dark">
+<h2>Why Choose Us</h2>
+<p>
+✔ Trusted consultancy<br>
+✔ Global employer network<br>
+✔ Transparent process<br>
+✔ End-to-end support
+</p>
 </section>
 
 <!-- STATS -->
-
-<section class="section dark">
-<div class="stats">
-<div class="stat">500+ Placements</div>
-<div class="stat">50+ Clients</div>
-<div class="stat">10+ Countries</div>
-</div>
-</section>
-
-<!-- FEATURES -->
-
 <section class="section">
-<h2>Why Choose Us</h2>
+<h2>Our Achievements</h2>
 <div class="grid">
-<div class="card">Trusted Consultancy</div>
-<div class="card">Global Employer Network</div>
-<div class="card">Transparent Process</div>
+<div class="card">500+ Placements</div>
+<div class="card">50+ Clients</div>
+<div class="card">10+ Countries</div>
 </div>
 </section>
 
 <!-- TESTIMONIAL -->
-
 <section class="section dark">
-<h2>What Clients Say</h2>
-<p>"KGRS helped us find skilled workers quickly and efficiently."</p>
+<h2>Client Feedback</h2>
+<p>"KGRS provided excellent recruitment service and helped us find skilled workforce quickly."</p>
 </section>
 
 <!-- CONTACT -->
-
 <section class="section">
 <h2>Contact Us</h2>
 <p>📞 +91 86670 56400</p>
@@ -131,7 +133,7 @@ footer{background:#0a3d62;color:#fff;padding:40px;text-align:center}
 </section>
 
 <footer>
-<p>© 2026 KRISHNA GLOBAL RECRUITMENT SERVICES</p>
+<p>© 2026 KGRS</p>
 </footer>
 
 </body>
